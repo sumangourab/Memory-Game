@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">
+        Hello: <span></span>
+      </div>
+      <div class="tries">
+        Wrong Tries: <span>0</span>
+      </div>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-technology="apple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/apple.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="apple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/apple.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="avocado">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/avocado.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="avocado">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/avocado.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="banana">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/banana.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="banana">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/banana.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="grape">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/grape.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="grape">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/grape.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="lemon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/lemon.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="lemon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/lemon.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="mango">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/mango.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="mango">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/mango.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="orange">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/orange.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="orange">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/orange.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="pineapple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/pineapple.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="pineapple">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/pineapple.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="strawberry">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/strawberry.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="strawberry">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/strawberry.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="watermelon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/watermelon.png" alt="">
+        </div>
+      </div>
+      <div class="game-block" data-technology="watermelon">
+        <div class="face front"></div>
+        <div class="face back">
+          <img src="./assets/watermelon.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="restart-div">
+      <button class="restart">Restart Game</button>
+    </div>
+    <audio id="success" src="./assets/correct.wav" preload="auto"></audio>
+    <audio id="fail" src="./assets/wrong.wav" preload="auto"></audio>
+    <audio id="click"src="./assets/click.wav" preload="auto"></audio>
+    <script src="index.js"></script>
+  </body>
+</html>
